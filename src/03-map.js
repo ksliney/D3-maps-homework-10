@@ -12,11 +12,6 @@ var svg = d3
   .append('g')
   .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
 
-Promise.all([
-  d3.xml(require('./data/canada.svg')),
-  d3.csv(require('./data/wolves.csv'))
-]).then(ready)
-
 function ready([hexFile, datapoints]) {
 
 }

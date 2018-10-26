@@ -17,6 +17,7 @@
   "author": "Jonathan Soma <jonathan.soma@gmail.com> (http://jonathansoma.com)",
   "license": "ISC",
   "devDependencies": {
+    "babel-core": "^6.26.3",
     "eslint": "^5.5.0",
     "eslint-config-prettier": "^3.0.1",
     "eslint-config-standard": "^12.0.0",
@@ -32,9 +33,10 @@
   "dependencies": {
     "babel-preset-env": "^1.7.0",
     "d3": "^5.7.0",
-    "d3-geo-projection": "^2.4.1",
     "jest": "^23.6.0",
     "node-fetch": "^2.2.0",
+    "parcel": "^1.10.2",
+    "promise": "^8.0.2",
     "topojson": "^3.0.2"
   }
 }

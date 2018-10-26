@@ -1,0 +1,114 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>svg { 
+        display: block;
+        margin: 0 auto;
+      }
+
+      h1 { margin-bottom: 2rem; }
+
+      body {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+
+      h3 { 
+        margin-top: 3rem; 
+        margin-bottom: 1rem;
+      }
+
+      .container {
+        max-width: 46rem;
+      }
+
+      img.block {
+        display: block;
+        border: solid #333 1p;
+        margin: 0 auto;
+      }
+
+      .sphere {
+        fill: none;
+        stroke: #000;
+        stroke-width: 3px;
+      }
+
+/*      .fill {
+        fill: #fff;
+      }
+*/
+      .graticule {
+        fill: none;
+        stroke: #777;
+        stroke-width: .5px;
+        stroke-opacity: .5;
+      }</style>
+  </head>
+
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1>M A P P I N G</h1>
+
+      <p>You'll need to run <code>npm start</code> or <code>npm run start</code> to start up Parcel. Be sure you've run <code>npm install</code> to install all of the appropriate packages.</p>
+    </div>
+  </div>
+
+  <div class="row mt-3">
+    <div class="col-12">
+
+      <h3>Chart 1: A simple map</h3>
+      <p>
+        Let's learn about topojson, graticules, great circles.
+      </p>
+      <div id="chart-1">
+      </div>
+
+      <h3>Chart 2: Styling your map</h3>
+      <p>Expanding our projections, using <code>path.centroid</code> for labels, and <code>d.properties</code> to access your data.</p>
+      <div id="chart-2">
+      </div>
+
+      <h3>Chart 3: Points, and maps with multiple layers</h3>
+      <p>Using <code>Promise.all</code> to read in multiple layers.</p>
+      <p></p>
+      <div id="chart-3">
+      </div>
+
+      <h3>Chart 4: Globes and more great circles</h3>
+      <p>Making our projection real crazy</p>
+      <p></p>
+      <div id="chart-4">
+      </div>
+
+      <h3>Chart 5: Adrian/Hex cartogram</h3>
+      <p>A <strong>cartogram</strong> is a map that is more like a diagram. A lot of the time it's hexagons! I built <a href="https://github.com/jsoma/hexagon-grids-for-adobe-illustrator" target="_blank">this plugin</a> to help with that.</p>
+      <div id="chart-5">
+      </div>
+
+      <h3>Chart 6: Angela/Point or grid maps</h3>
+      <p>Based on <a href="https://pudding.cool/2017/01/shape-of-slavery/">Mapping slavery against incarceration</a></p>
+      <div id="chart-6">
+      </div>
+
+      <h3>Chart 7: Coral/Great circles</h3>
+      <p>Based on <a href="http://andywoodruff.com/blog/beyond-the-sea/">this map of what's across the ocean</a></p>
+      <div id="chart-7">
+      </div>
+    </div>
+  </div>
+
+  <script src="/01-map.515972a4.js"></script>
+  <script src="/02-map.7ab4289d.js"></script>
+  <script src="/03-map.dffb1214.js"></script>
+  <script src="/04-map.1a6ffa0e.js"></script>
+  <script src="/05-map.50a89515.js"></script>
+  <script src="/06-map.817c3d60.js"></script>
+  <script src="/07-map.57e32ddb.js"></script>
+</div>
+</body>
+</html>
